@@ -1,6 +1,9 @@
 # OKX DEX Widget React Application
 
-This project is a modern React application that integrates the OKX DEX (Decentralized Exchange) Widget, providing a seamless and user-friendly interface for cryptocurrency trading.
+**Check out the live demo of this repository:**
+[Dex Widget Demo](https://dex-widget-demo-Juliandev28.replit.app)
+
+This project is a React application that integrates the OKX DEX Widget, providing a seamless and user-friendly interface for swapping and bridging tokens.
 
 ## Features
 
@@ -45,7 +48,7 @@ Before you begin, ensure you have met the following requirements:
 To run the application in development mode:
 
 ```
-npm start
+npm dev
 ```
 
 This will start the development server. Open [http://localhost:5217](http://localhost:5217) to view it in your browser.

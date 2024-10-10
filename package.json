@@ -1,8 +1,8 @@
 {
-  "name": "react-typescript",
+  "name": "okx-os-dex-widget-demo",
   "version": "1.0.0",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "React application that integrates the OKX DEX Widget",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

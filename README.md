@@ -1,6 +1,6 @@
 # OKX DEX Widget React Application
 
-**Check out the live demo of this repository:**
+**Check out the live deployment of this repository:**
 [Dex Widget Demo](https://dex-widget-demo-Juliandev28.replit.app)
 
 This project is a React application that integrates the OKX DEX Widget, providing a seamless and user-friendly interface for swapping and bridging tokens.
@@ -8,29 +8,43 @@ This project is a React application that integrates the OKX DEX Widget, providin
 ## Features
 
 - Integration of the OKX DEX Widget
-- Responsive and stylish navigation
-- Dark theme with vibrant accents
-- React Router for seamless navigation between pages
+- Responsive and stylish UI
+- Boilerplate application
 
 ## Technologies Used
 
 - React
 - TypeScript
-- React Router
 - OKX DEX Widget (@okxweb3/dex-widget)
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js (v14 or later)
+- Node.js (v20 or later)
 - npm (usually comes with Node.js)
 
-## Installation
+## Set Up
 
+## Using Replit
+
+1. Fork the Repository
+   - Click "Use Template" to fork this repl.
+
+2. Install the dependencies
+   - In Replit, open the shell terminal and run the following command:
+   ```
+   npm install
+   ```
+   
+3. Run the project:
+   - Use the `Run` button provided by Replit to start the application.
+   - Once the server starts, it will provide a webview window with the application running live.
+
+## Using GitHub
 1. Clone the repository:
    ```
-   git clone https://github.com/julian-dev28/okx-dex-widget-app.git
+   git clone https://github.com/Julian-dev28/dex-widget-demo.git
    ```
 
 2. Navigate to the project directory:
@@ -43,13 +57,10 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-## Usage
-
-To run the application in development mode:
-
-```
-npm run dev
-```
+4. Run the project:
+   ```
+   npm run dev
+   ```
 
 This will start the development server. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 

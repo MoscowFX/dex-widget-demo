@@ -102,3 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Contact
 
 If you have any questions or feedback, please open an issue in this repository.
+You can also contact us via the [OKX OS Discord Channel](https://discord.com/channels/1260193012223578164/1267467417848643585).

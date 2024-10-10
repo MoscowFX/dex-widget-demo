@@ -48,10 +48,10 @@ Before you begin, ensure you have met the following requirements:
 To run the application in development mode:
 
 ```
-npm dev
+npm run dev
 ```
 
-This will start the development server. Open [http://localhost:5217](http://localhost:5217) to view it in your browser.
+This will start the development server. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## Project Structure
 

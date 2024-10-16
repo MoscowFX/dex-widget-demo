@@ -24,39 +24,37 @@ const WidgetPage: React.FC = () => {
     if (!widgetRef.current) return;
 
     const params: OkxSwapWidgetProps["params"] = {
+      appCode: "YOUR_APP_CODE",
       width: 450,
+      height: 400,
       providerType: ProviderType.EVM,
       tradeType: TradeType.AUTO,
-    };
-
-    // More params to add
-    /*
-    theme: "light",
-    tradeType: TradeType.SWAP,
-    chainIds: ["196", "8453"],
-    tokenPair: {
-      fromChain: 196, //X Layer
-      toChain: 196, // X Layer
-      fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
-      toToken: "0xdac17f958d2ee523a2206206994597c13d831ec7", // USDT
-    },
+      chainIds: ["196", "8453"],
+      theme: THEME.LIGHT,
+      lang: "en_us",
+      tokenPair: {
+        fromChain: 196, //X Layer
+        toChain: 196, // X Layer
+        fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
+        toToken: "0x74b7f16337b8972027f6196a17a631ac6de26d22", // USDC
+      },
+      bridgeTokenPar: {
+        fromChain: 8453, // BASE
+        toChain: 196, // X Layer
+        fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
+        toToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // USDC
+      },
       feeConfig: {
         196: {
           feePercent: 1,
-          referrerAddress: '0x5672539437a5806243c1a557b7e8b914ad546233',
+          referrerAddress: "0xd37268a16374d0a52c801c06a11ef32a35fcd2b9",
         },
-      }
-    */
-
-    // demo for custom meme token default selection
-    /*    
-      tokenPair: {
-      fromChain: 196, //ETH
-      toChain: 196, // ETH
-      fromToken: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', // OKB
-      toToken: '0xe7e267284e38461c951e7d464958c8c717c9da9d', // XINU
-    },
-    */
+        8453: {
+          feePercent: 1,
+          referrerAddress: "0xd37268a16374d0a52c801c06a11ef32a35fcd2b9",
+        },
+      },
+    };
     const provider = window.ethereum;
 
     const listeners: IWidgetConfig["listeners"] = [

@@ -41,8 +41,8 @@ const WidgetPage: React.FC = () => {
       bridgeTokenPar: {
         fromChain: 8453, // BASE
         toChain: 196, // X Layer
-        fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
-        toToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // USDC
+        fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // ETH
+        toToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
       },
       feeConfig: {
         196: {

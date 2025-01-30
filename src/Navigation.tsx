@@ -8,7 +8,7 @@ const Navigation: React.FC = () => {
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/widget", label: "DEX Widget" },
-    { path: "/widget", label: "DEX Widget2" }
+    { path: "/newpage2", label: "New Page2" }
   ];
 
   return (

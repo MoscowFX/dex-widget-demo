@@ -81,6 +81,7 @@ const WidgetPage: React.FC = () => {
 
   return (
     <div className="widget-page">
+      <h2>Не полноценная свапалка, а готовый виджет от ОКX</h2>
       <h2>OKX DEX Widget</h2>
       <div ref={widgetRef} />
     </div>

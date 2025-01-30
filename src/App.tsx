@@ -13,7 +13,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/widget" element={<WidgetPage />} />
-          <Route path="/widget" element={<WidgetPage2 />} />
+          <Route path="/widget2" element={<WidgetPage2 />} /> {/* Исправлено */}
         </Routes>
       </div>
     </Router>

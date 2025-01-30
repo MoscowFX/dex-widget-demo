@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './Navigation';
 import LandingPage from './LandingPage';
 import WidgetPage from './WidgetPage';
+import WidgetPage2 from './newpage2';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/widget" element={<WidgetPage />} />
+          <Route path="/widget" element={<WidgetPage2 />} />
         </Routes>
       </div>
     </Router>

@@ -89,4 +89,4 @@ const WidgetPage: React.FC = () => {
   );
 };
 
-export default WidgetPage;
+export default newpage2;
